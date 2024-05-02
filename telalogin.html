@@ -5,29 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ai.lice</title>
     <link rel="stylesheet" href="./telalogin.css">
+    <script src="./login.js" defer></script>
 </head>
 <body>
 
-    <div class="fundo">
-    </div>
-    
     <div class="wrapper">
         <form action="">
           <p class="form-login">Login</p>
           <div class="input-box">
-            <input required="" placeholder="Username" type="text" />
+            <input required="" placeholder="Username" id="email" type="text" />
           </div>
           <div class="input-box">
-            <input required="" placeholder="Password" type="password" />
+            <input required="" placeholder="Password" id="password" type="password" />
           </div>
-          <div class="remember-forgot">
-            <label><input type="checkbox" />Remember Me</label>
-            <a href="#">Forgot Password</a>
-          </div>
-          <button class="btn" type="submit">Login</button>
-          <div class="register-link">
-            <p>Dont have an account? <a href="#">Register</a></p>
-          </div>
+          <button id="login" class="btn" type="button">Login</button>
         </form>
       </div>
       
